@@ -1,0 +1,16 @@
+# Hermes profile distribution manifest.
+name: setter
+version: 1.0.0
+description: >-
+  Coaching Hive Setter for online coaches. Owns lead qualification, DM openers, follow-ups, objection replies, booking messages and the setter end-of-day report. Draft-only: never sends messages.
+hermes_requires: ">=0.20.0"
+author: Coaching Hive
+license: MIT
+# Only these paths are installed and replaced on update. Memories, sessions,
+# keys, .env and skills the coach makes stay untouched.
+distribution_owned:
+  - distribution.yaml
+  - profile.yaml
+  - SOUL.md
+  - config.yaml
+  - skills/coaching-hive
