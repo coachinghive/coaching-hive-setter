@@ -11,9 +11,12 @@ Inside your Hermes terminal:
 
 ```
 hermes profile install https://github.com/coachinghive/coaching-hive-setter --alias -y
+curl -fsSL https://raw.githubusercontent.com/coachinghive/coaching-hive-setter/main/share-brain.sh | bash
 hermes -p setter model
 hermes -p setter chat
 ```
+
+The second line shares your second brain (Module 3) with this employee.
 
 Then say: `Run second-brain-check.`
 
